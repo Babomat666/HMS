@@ -12,7 +12,7 @@ public class SampleInteraction {
     
 		// create a new hotel management system
 		HotelManagementSystemInterface hm = new HotelManagementSystem();
-        // build the hotel from the text file
+        // build the hotel 
 
 		HotelInterface h = hm.setupHotel("mespil.txt");
         // try some bookings

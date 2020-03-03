@@ -38,7 +38,7 @@ public interface RoomInterface {
 	public void setRate(double rate);
 	
 	/**
-	 * Return a Map of the room's availability.
+	 * Return a Main of the room's availability.
 	 * 
 	 * @return
 	 */

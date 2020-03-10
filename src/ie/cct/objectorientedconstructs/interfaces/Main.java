@@ -10,14 +10,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Person {
+public class Main {
 
 	public static void main(String[] args) {
 		
-		new Person();		
+		new Main();		
 	}
 	
-	public Person() {
+	public Main() {
 
 		//lists();
 		//deque();
@@ -26,10 +26,6 @@ public class Person {
 	}
 //  public void lists() {
 	
-	public Person(String string) {
-		// TODO Auto-generated constructor stub
-	}
-
 	public void map() {
 		
 //  public void map() {

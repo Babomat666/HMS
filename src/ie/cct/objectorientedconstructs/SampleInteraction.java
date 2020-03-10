@@ -1,9 +1,10 @@
 package ie.cct.objectorientedconstructs;
 
-//change this to match your project package
-import ie.cct.objectorientedconstructs.HotelManagementSystem;
+
 import ie.cct.objectorientedconstructs.interfaces.HotelInterface;
 import ie.cct.objectorientedconstructs.interfaces.HotelManagementSystemInterface;
+//change this to match your project package
+
 
 public class SampleInteraction {
 	

@@ -1,6 +1,7 @@
 package ie.cct.objectorientedconstructs.s2018428s2016451s2017417;
 
 import java.util.List;
+
 import ie.cct.objectorientedconstructs.interfaces.HotelInterface;
 import ie.cct.objectorientedconstructs.interfaces.RoomInterface;
 
@@ -44,13 +45,16 @@ public class Hotel implements HotelInterface {
 	@Override
 	public boolean checkAvailability(String month, int day, String type, int lengthOfStay) {
 		// TODO Auto-generated method stub
-		if(RoomInterface room : rooms) {
-			
-			if(room.getType().equals(type)) {
+		
+			//if(RoomInterface room : rooms) {
+			//for (RoomInterface room : rooms) {
+		
+		if(((RoomInterface) rooms).getType().equals(type)) {
 			int finalday = day + lengthOfStay;
 			
 			do {	
-				if (isAvailable(month, day)) {				
+			
+			if (isAvailable(month, day)) {				
 					return false;	
 			}
 			day++;
@@ -58,7 +62,13 @@ public class Hotel implements HotelInterface {
 				return true;
 				
 			}
+		return false;
 		}
+
+
+	private boolean isAvailable(String month, int day) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override

@@ -37,6 +37,9 @@ public interface HotelInterface {
 	 * 
 	 * @param name
 	 */
+	
+	
+		
 	public void setName(String name);
 	
 	/**
